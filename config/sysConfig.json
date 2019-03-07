@@ -1,0 +1,46 @@
+{
+    "esb": {
+        "host": "10.10.11.235",
+        "port": 80,
+        "DNS": ["masterOpcua"]
+    },
+    "ibus": {
+        "host":"0.0.0.0",
+        "port":37000,
+        "DNS": ["masterOpcua"],
+        "objectId":"opcua",
+        "type":"extend",
+        "name":"opcua",
+        "password": "C2F1366C51911B52369FE27DF307FF84",
+        "sendLogin": 15
+    },
+    "link":{
+      "extend001": {
+        "host": "0.0.0.0",
+        "port": 3010
+      },
+      "extend002": {
+        "host": "0.0.0.0",
+        "port": 3020
+      },
+      "extend003": {
+        "host": "0.0.0.0",
+        "port": 3030
+      },
+      "opcua": {
+        "host": "0.0.0.0",
+        "port": 3040
+      }
+    },
+    "DB": {
+        "host": "10.10.11.225",
+        "port": 3306,
+        "user": "root",
+        "password": "root@123",
+        "database": "ehzOS",
+        "connectionLimit": 10,
+        "waitForConnections": false,
+        "maxReconnectCount": 10,
+        "charset": "utf8"
+    }
+}

@@ -1,0 +1,310 @@
+{
+	"id": "1888",
+	"name": "亚控",
+	"explain": "设备描述",
+	"ico": "",
+	"class": "opcua",
+	"visitingCard": "equipment-visiting-card-type001",
+	"datas": [{
+		"id": 1,
+		"name": "username",
+		"dataType": 7,
+		"enumTable": [{
+				"value": 0,
+				"name": "打开"
+			},
+			{
+				"value": 1,
+				"name": "关闭"
+			}],
+		"maxValue": 100,
+		"minValue": 0,
+		"accessRight": 2,
+		"setLogEnable": 1,
+		"alarmGrade": 2,
+		"storageEnable": 1,
+		"storageCycle": 1,
+		"storageAbsoluteThreshold": 0,
+		"trapThreshold": 0,
+		"unit": "",
+		"explain": "",
+		"defaultValue": "admin"
+	},
+		{
+		"id": 2,
+		"name": "password",
+		"dataType": 7,
+		"enumTable": [{
+				"value": 0,
+				"name": "打开"
+			},
+			{
+				"value": 1,
+				"name": "关闭"
+			}],
+		"maxValue": 100,
+		"minValue": 0,
+		"accessRight": 2,
+		"setLogEnable": 1,
+		"alarmGrade": 2,
+		"storageEnable": 1,
+		"storageCycle": 1,
+		"storageAbsoluteThreshold": 0,
+		"trapThreshold": 0,
+		"unit": "",
+		"explain": "",
+		"defaultValue": "1234"
+	},
+		{
+		"id": 3,
+		"name": "server_url",
+		"dataType": 7,
+		"enumTable": [{
+				"value": 0,
+				"name": "打开"
+			},
+			{
+				"value": 1,
+				"name": "关闭"
+			}],
+		"maxValue": 100,
+		"minValue": 0,
+		"accessRight": 2,
+		"setLogEnable": 1,
+		"alarmGrade": 2,
+		"storageEnable": 1,
+		"storageCycle": 1,
+		"storageAbsoluteThreshold": 0,
+		"trapThreshold": 0,
+		"unit": "",
+		"explain": "",
+		"defaultValue": "opc.tcp://10.10.11.60:53530/OPCUA/SimulationServer"
+	},
+		{
+		"id": 4,
+		"name": "method",
+		"dataType": 7,
+		"enumTable": [{
+				"value": 0,
+				"name": "打开"
+			},
+			{
+				"value": 1,
+				"name": "关闭"
+			}],
+		"maxValue": 100,
+		"minValue": 0,
+		"accessRight": 2,
+		"setLogEnable": 1,
+		"alarmGrade": 2,
+		"storageEnable": 1,
+		"storageCycle": 1,
+		"storageAbsoluteThreshold": 0,
+		"trapThreshold": 0,
+		"unit": "",
+		"explain": "",
+		"defaultValue": "tcp"
+	},
+		{
+		"id": 5,
+		"name": "mode",
+		"dataType": 7,
+		"enumTable": [{
+				"value": 0,
+				"name": "打开"
+			},
+			{
+				"value": 1,
+				"name": "关闭"
+			}],
+		"maxValue": 100,
+		"minValue": 0,
+		"accessRight": 2,
+		"setLogEnable": 1,
+		"alarmGrade": 2,
+		"storageEnable": 1,
+		"storageCycle": 1,
+		"storageAbsoluteThreshold": 0,
+		"trapThreshold": 0,
+		"unit": "",
+		"explain": "",
+		"defaultValue": "None"
+	},
+		{
+		"id": 6,
+		"name": "policy",
+		"dataType": 7,
+		"enumTable": [{
+				"value": 0,
+				"name": "打开"
+			},
+			{
+				"value": 1,
+				"name": "关闭"
+			}],
+		"maxValue": 100,
+		"minValue": 0,
+		"accessRight": 2,
+		"setLogEnable": 1,
+		"alarmGrade": 2,
+		"storageEnable": 1,
+		"storageCycle": 1,
+		"storageAbsoluteThreshold": 0,
+		"trapThreshold": 0,
+		"unit": "",
+		"explain": "",
+		"defaultValue": ""
+	},
+		{
+		"id": 7,
+		"name": "client_certificate",
+		"dataType": 7,
+		"enumTable": [{
+				"value": 0,
+				"name": "打开"
+			},
+			{
+				"value": 1,
+				"name": "关闭"
+			}],
+		"maxValue": 100,
+		"minValue": 0,
+		"accessRight": 2,
+		"setLogEnable": 1,
+		"alarmGrade": 2,
+		"storageEnable": 1,
+		"storageCycle": 1,
+		"storageAbsoluteThreshold": 0,
+		"trapThreshold": 0,
+		"unit": "",
+		"explain": "",
+		"defaultValue": ""
+	},
+		{
+		"id": 8,
+		"name": "private_key",
+		"dataType": 7,
+		"enumTable": [{
+				"value": 0,
+				"name": "打开"
+			},
+			{
+				"value": 1,
+				"name": "关闭"
+			}],
+		"maxValue": 100,
+		"minValue": 0,
+		"accessRight": 2,
+		"setLogEnable": 1,
+		"alarmGrade": 2,
+		"storageEnable": 1,
+		"storageCycle": 1,
+		"storageAbsoluteThreshold": 0,
+		"trapThreshold": 0,
+		"unit": "",
+		"explain": "",
+		"defaultValue": ""
+	},
+		{
+		"id": 9,
+		"name": "update_url",
+		"dataType": 7,
+		"enumTable": [{
+				"value": 0,
+				"name": "打开"
+			},
+			{
+				"value": 1,
+				"name": "关闭"
+			}],
+		"maxValue": 100,
+		"minValue": 0,
+		"accessRight": 2,
+		"setLogEnable": 1,
+		"alarmGrade": 2,
+		"storageEnable": 1,
+		"storageCycle": 1,
+		"storageAbsoluteThreshold": 0,
+		"trapThreshold": 0,
+		"unit": "",
+		"explain": "",
+		"defaultValue": "http://10.10.11.227:80"
+	},
+		{
+		"id": 10,
+		"name": "projectId",
+		"dataType": 7,
+		"enumTable": [{
+				"value": 0,
+				"name": "打开"
+			},
+			{
+				"value": 1,
+				"name": "关闭"
+			}],
+		"maxValue": 100,
+		"minValue": 0,
+		"accessRight": 2,
+		"setLogEnable": 1,
+		"alarmGrade": 2,
+		"storageEnable": 1,
+		"storageCycle": 1,
+		"storageAbsoluteThreshold": 0,
+		"trapThreshold": 0,
+		"unit": "",
+		"explain": "",
+		"defaultValue": "4"
+	},
+		{
+		"id": 201,
+		"name": "机械臂震动频次",
+		"dataType": 3,
+		"enumTable": [{
+				"value": 0,
+				"name": "打开"
+			},
+			{
+				"value": 1,
+				"name": "关闭"
+			}
+		],
+		"maxValue": 100,
+		"minValue": 0,
+		"accessRight": 2,
+		"setLogEnable": 1,
+		"alarmGrade": 2,
+		"storageEnable": 1,
+		"storageCycle": 1,
+		"storageAbsoluteThreshold": 0,
+		"trapThreshold": 0,
+		"unit": "",
+		"explain": "",
+		"defaultValue": "10"
+	},
+		{
+		"id": 202,
+		"name": "滑轮转速",
+		"dataType": 3,
+		"enumTable": [{
+				"value": 0,
+				"name": "打开"
+			},
+			{
+				"value": 1,
+				"name": "关闭"
+			}
+		],
+		"maxValue": 200,
+		"minValue": 50,
+		"accessRight": 2,
+		"setLogEnable": 1,
+		"alarmGrade": 2,
+		"storageEnable": 1,
+		"storageCycle": 1,
+		"storageAbsoluteThreshold": 0,
+		"trapThreshold": 0,
+		"unit": "",
+		"explain": "",
+		"defaultValue": "0"
+	}]
+}
